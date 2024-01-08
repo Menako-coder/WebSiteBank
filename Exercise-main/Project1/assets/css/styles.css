@@ -1,0 +1,146 @@
+#main {
+	min-height: 200px;
+	background: #ddd;
+	display: none;
+}
+table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    table th, table td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #dddddd;
+    }
+
+    table th {
+      background-color: #003366;
+      color: #ffffff;
+    }
+
+    table tr:nth-child(even) {
+      background-color: #f5f5f5;
+    }
+	
+	body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #003366;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    nav {
+      background-color: #eeeeee;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      color: #333333;
+      text-decoration: none;
+    }
+
+    main {
+      margin: 20px;
+    }
+
+    footer {
+      background-color: #003366;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    section {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    h2, h3 {
+      color: #003366;
+    }
+
+    .button {
+      background-color: #003366;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #dddddd;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    form button {
+      background-color: #003366;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+     .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .feature {
+      flex: 0 0 300px;
+      background-color: #f5f5f5;
+      border: 1px solid #dddddd;
+      border-radius: 5px;
+      margin: 10px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .feature h3 {
+      font-size: 18px;
+      margin-top: 0;
+    }
+    .visual{
+      background: rgb(34,193,195);
+      background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(45,253,183,1) 100%);
+    }
+    .visual2{
+      background: rgb(2,0,36);
+      background: linear-gradient(16deg, rgba(2,0,36,1) 0%, rgba(75,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    }
+    .textsize{
+        font-size: 30;
+    }
